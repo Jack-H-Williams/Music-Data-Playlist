@@ -1,12 +1,16 @@
+/*
+  File: driver.cpp
+  Author: Jack Williams
+  Desc:
+      Provides a simple command-line interface that allows a user to utilize playlist functions.
+*/
+
 #include <iostream>
 #include <string>
 #include <cstdlib>  
 #include <ctime>    
 #include <limits>   
 #include "songQueue.h"
-
-//Author: Jack Williams
-//Email: Jack.h.willi@gmail.com
 
 int main() {
 
@@ -19,7 +23,7 @@ int main() {
   cout << "Welcome! Here are a few notes: " << endl;
   cout << " - This menu holds song data and will not play music" << endl;
   cout << " - Songs skip based on user action (not length)" << endl;
-  cout << " - Shuffle mode may loop back to the same song and requires at least 3 songs to activate" << endl;
+  cout << " - Shuffle mode may loop back to the same song and requires at least 4 songs to activate" << endl;
   cout << "Enjoy!" << endl;
 
   while (quit != true) { //stop when user picks 8

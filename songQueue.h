@@ -1,12 +1,20 @@
+/*
+  File: songQueue.h
+  Author: Jack Williams
+  Desc:
+      declares the Song and Playlist classes used to manage and store song data.
+      - Song Class: Includes links to the next and previous nodes for use in a doubly linked list.
+      - Playlist class: Manages a doubly linked list of Song nodes. Supports
+        adding, removing, traversing, shuffling, and displaying songs.
+*/
+
+
 #ifndef SONGQUEUE_H
 #define SONGQUEUE_H
 #include <iostream>
 #include <string>
 #include <cstdlib>
 using namespace std;
-//Author: Jack Williams
-//Email: Jack.H.Willi@gmail.com
-
 
 class Song { //serves as a node in the Linked List
   friend class Playlist; //give access to private vars
@@ -33,6 +41,7 @@ class Song { //serves as a node in the Linked List
   Song* m_next;
   Song* m_previous;
 };
+
 
 class Playlist {
  public:

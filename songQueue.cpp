@@ -1,6 +1,17 @@
-#include "songQueue.h"
-//Author: Jack Williams
-//Email: Jack.H.Willi@gmail.com
+/*
+  File: songQueue.cpp
+  Author: Jack Williams
+  Desc:
+      Implements the Song and Playlist classes declared in songQueue.h.
+      - Song: Provides constructors, getters, and setters for individual
+        song nodes.
+      - Playlist: Implements playlist functionality including the
+        Rule of Three,add/remove, traversal (skip forward/back), shuffle mode,
+        and display functions.
+*/
+
+#include "songQueue.h";
+
 
 //Default Constructor: initialize all member vars
 Song::Song() {
@@ -264,7 +275,6 @@ void Playlist::skipForward() {
   m_current = temp;
 }
   
-
 void Playlist::skipBack() { //always linear 
   if (m_current == nullptr) { //no song playing                                                                                                             
     return;
@@ -281,7 +291,7 @@ void Playlist::skipBack() { //always linear
 void Playlist::shuffleSwitch() {
 
   if (m_size <= 3) {
-    cout << "Cannot change shuffle mode with less than 3 songs" << endl;
+    cout << "Cannot change shuffle mode with less than 4 songs" << endl;
     return;
   }
   
