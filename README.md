@@ -16,8 +16,8 @@ I developed this project independently to deepen my understanding of data struct
 - **Shuffle mode**  
   - Randomized forward skips
 - **Rule of Three**  
-  - Custom destructor, copy constructor, and assignment operator with deep copy semantics  
-- **Robust linked list handling**  
-  - Proper pointer updates for head/tail/current across operations  
-- **Menu-driven driver**  
+  - Custom destructor, copy constructor, and assignment operator with deep copy  
+- **Doubly linked list handling**  
+  - Proper pointer updates for head/tail/current  
+- **Driver**  
   - Command-line interface for interactive testing  
