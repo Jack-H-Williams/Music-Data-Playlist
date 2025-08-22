@@ -80,7 +80,7 @@ int main() {
 
     if (input == 4) {
       mySongs.skipBack();
-      cout << "Moved back (if possible" << endl;
+      cout << "Moved back (if possible)" << endl;
     }
 
     if (input == 5) {
@@ -100,7 +100,7 @@ int main() {
 
     if (input == 8) {
       quit = true;
-      cout << "Thanks for playing!!" << endl;
+      cout << "Thanks for playing!" << endl;
     }
 
     cout <<  '\n' << endl; //break up each input
