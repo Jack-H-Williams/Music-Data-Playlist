@@ -2,7 +2,7 @@
   File: songQueue.h
   Author: Jack Williams
   Desc:
-      declares the Song and Playlist classes used to manage and store song data.
+      Declares the Song and Playlist classes used to manage and store song data.
       - Song Class: Includes links to the next and previous nodes for use in a doubly linked list.
       - Playlist class: Manages a doubly linked list of Song nodes. Supports
         adding, removing, traversing, shuffling, and displaying songs.

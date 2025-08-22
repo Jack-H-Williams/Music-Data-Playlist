@@ -10,7 +10,7 @@
         and display functions.
 */
 
-#include "songQueue.h";
+#include "songQueue.h"
 
 
 //Default Constructor: initialize all member vars
